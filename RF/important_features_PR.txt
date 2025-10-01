@@ -1,0 +1,24 @@
+Issues Opened in Last 2 Weeks
+Author PRs Opened
+Open PRs at Open Date
+lines_of_code_changed
+time_since_last_commit
+Issues Closed in Last 2 Weeks
+issue_text_wordiness
+number_of_commits
+day_of_week
+number_of_files_changed
+thi
+pr
+fix
+label_count
+test
+issu
+chang
+add
+use
+descript
+pleas
+make
+number_of_reviews_requested
+new
