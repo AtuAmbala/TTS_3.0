@@ -12397,7 +12397,7 @@ The unit tests for this project are in `test_module.py`. We imported the tests f
 More challenges without questions:
 
 6734e2dcb965e5ac0ea38e0f
- 6734e86f590727c5e7e9ec5e
+6734e86f590727c5e7e9ec5e
 6734e879c78ee6c61db25b90
 6734e883fbc50ec642237caf
 6734e88cc46e6dc679420040
@@ -28518,7 +28518,7 @@ Adding animations would require more work. I'm guessing it would need to be done
 
 Correct me if any of this is wrong - here's some more context to the next reviewer:
 
-The project starts users off with HTML and CSS boilerplate. This PR changes that boilerplate, which means the seed of each step needs the same boilerplate. That accounts for the majority of the changes in the diff. 
+The project starts users off with HTML and CSS boilerplate. This PR changes that boilerplate, which means the seed of each step needs the same boilerplate. That accounts for the majority of the changes in the diff.
 
 Since the boilerplate was adjusted to use different CSS, part of the JS that added inline styles wasn't needed...
 
@@ -28529,7 +28529,7 @@ Steps 84-86 added three news objects, each with a `marginTop` property and value
   marginTop: 300
 }
 ```
- 
+
 That was removed from those three steps. So the seed from then on doesn’t have that property in the objects.
 
 The use of those `marginTop` values was removed in the deleted step 95. e.g:
@@ -28539,7 +28539,7 @@ The use of those `marginTop` values was removed in the deleted step 95. e.g:
 
 So the seed from then on doesn’t have that.
 
- The three files that have more than just seed code changes: 
+The three files that have more than just seed code changes:
 64648534ff5498bee5dceb28.md - step 84
 646486adf52652c0ee103aab.md - step 85
 64648963e014f8c42a65b83a.md - step 86
@@ -28548,7 +28548,7 @@ So the seed from then on doesn’t have that.
 
 Correct me if any of this is wrong - here's some more context to the next reviewer:
 
-The project starts users off with HTML and CSS boilerplate. This PR changes that boilerplate, which means the seed of each step needs the same boilerplate. That accounts for the majority of the changes in the diff. 
+The project starts users off with HTML and CSS boilerplate. This PR changes that boilerplate, which means the seed of each step needs the same boilerplate. That accounts for the majority of the changes in the diff.
 
 Since the boilerplate was adjusted to use different CSS, part of the JS that added inline styles wasn't needed...
 
@@ -28559,7 +28559,7 @@ Steps 84-86 added three news objects, each with a `marginTop` property and value
   marginTop: 300
 }
 ```
- 
+
 That was removed from those three steps. So the seed from then on doesn’t have that property in the objects.
 
 The use of those `marginTop` values was removed in the deleted step 95. e.g:
@@ -28569,7 +28569,7 @@ The use of those `marginTop` values was removed in the deleted step 95. e.g:
 
 So the seed from then on doesn’t have that.
 
- The three files that have more than just seed code changes: 
+The three files that have more than just seed code changes:
 64648534ff5498bee5dceb28.md - step 84
 646486adf52652c0ee103aab.md - step 85
 64648963e014f8c42a65b83a.md - step 86
@@ -32597,7 +32597,7 @@ step5 - The `getRoundResults` function is started for me. We could add another s
 
 Step7 - didn’t pass with this code:
 ```
-  function showResults(userOption) {
+function showResults(userOption) {
   playerScoreSpanElement.innerText = playerScore;
   computerScoreSpanElement.innerText = computerScore;
   roundResultsMsg.innerText = getRoundResults(userOption);
@@ -32623,7 +32623,7 @@ step5 - The `getRoundResults` function is started for me. We could add another s
 
 Step7 - didn’t pass with this code:
 ```
-  function showResults(userOption) {
+function showResults(userOption) {
   playerScoreSpanElement.innerText = playerScore;
   computerScoreSpanElement.innerText = computerScore;
   roundResultsMsg.innerText = getRoundResults(userOption);
@@ -34723,7 +34723,7 @@ I have made the following changes:
 - Fixed the failing test for Firefox.
 - Improved vague instructions/ tests.In the HTML lab I added, I used the format `lab-recipe-page` for the block dashed name and filenames - it doesn't sound as good, but it keeps all the labs next to each other in the file tree - the URL will be `lab-recipe-page` though, so there's some trade-offs. The display name is still set in the intro.json file, so we can show whatever we want.
 
-I think we should be consistent, so we should either change this to use that format, or I can change the other one. What do you think @zairahira? I just had a brief look. There are several tests that pass without adding any code. I was able to follow the instructions and pass all the tests, so I think I would be fine with this 👍 I do have a number of suggestions. ..
+I think we should be consistent, so we should either change this to use that format, or I can change the other one. What do you think @zairahira? I just had a brief look. There are several tests that pass without adding any code. I was able to follow the instructions and pass all the tests, so I think I would be fine with this 👍 I do have a number of suggestions...
 
 Since this is the first CSS project, we could maybe add a user story to ""link the styles.css file"". I don't know if it's needed, but I couldn't figure out why my styles weren't being applied for a bit. Maybe users will be used to it at this point.
 
@@ -34739,7 +34739,7 @@ Since this is about styling, I would also check that the image size is appropria
 
 I did notice one minor thing, though, but it's not blocking, imo. LGTM 🚀 ","In the HTML lab I added, I used the format `lab-recipe-page` for the block dashed name and filenames - it doesn't sound as good, but it keeps all the labs next to each other in the file tree - the URL will be `lab-recipe-page` though, so there's some trade-offs. The display name is still set in the intro.json file, so we can show whatever we want.
 
-I think we should be consistent, so we should either change this to use that format, or I can change the other one. What do you think @zairahira? I just had a brief look. There are several tests that pass without adding any code. I was able to follow the instructions and pass all the tests, so I think I would be fine with this 👍 I do have a number of suggestions. ..
+I think we should be consistent, so we should either change this to use that format, or I can change the other one. What do you think @zairahira? I just had a brief look. There are several tests that pass without adding any code. I was able to follow the instructions and pass all the tests, so I think I would be fine with this 👍 I do have a number of suggestions...
 
 Since this is the first CSS project, we could maybe add a user story to ""link the styles.css file"". I don't know if it's needed, but I couldn't figure out why my styles weren't being applied for a bit. Maybe users will be used to it at this point.
 
@@ -35849,14 +35849,14 @@ Minor suggestion that I think sounds a little better."
 
 Found one typo.
 
-When you go to [the registration form](https://www.freecodecamp.dev/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-65), the submit button works (sort of) - it says `Normally this form would be submitted! It works. This will be submitted to: https://register-demo.freecodecamp.org`  Wonder if we should change this so it does something like that. You could change it to something like this: `<form method=""post"" action=""https://hotel-feedback.freecodecamp.org"">`
+When you go to [the registration form](https://www.freecodecamp.dev/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-65), the submit button works (sort of) - it says `Normally this form would be submitted! It works. This will be submitted to: https://register-demo.freecodecamp.org` Wonder if we should change this so it does something like that. You could change it to something like this: `<form method=""post"" action=""https://hotel-feedback.freecodecamp.org"">`
 
 Not necessary, but maybe a nice to have. Add it if you want, otherwise this looks good 👍 
  LGTM 🎉 ","LGTM 🚀 Nicely done @jdwilkin4 🎉 
 
 Found one typo.
 
-When you go to [the registration form](https://www.freecodecamp.dev/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-65), the submit button works (sort of) - it says `Normally this form would be submitted! It works. This will be submitted to: https://register-demo.freecodecamp.org`  Wonder if we should change this so it does something like that. You could change it to something like this: `<form method=""post"" action=""https://hotel-feedback.freecodecamp.org"">`
+When you go to [the registration form](https://www.freecodecamp.dev/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-65), the submit button works (sort of) - it says `Normally this form would be submitted! It works. This will be submitted to: https://register-demo.freecodecamp.org` Wonder if we should change this so it does something like that. You could change it to something like this: `<form method=""post"" action=""https://hotel-feedback.freecodecamp.org"">`
 
 Not necessary, but maybe a nice to have. Add it if you want, otherwise this looks good 👍 
  LGTM 🎉 ","Checklist:
@@ -36355,7 +36355,7 @@ Should fix: number 2
 ",
 55537,2024-07-17T10:22:26Z,2024-08-09T20:56:38Z,Supravisor,0,4,11,6,2,3,2,"['scope: curriculum', 'new javascript course']",,0,2211876.0,0,0,0,0,11805743.032895,,0,11,0,False,[],"In my opinion, I do not think so to add quotes around the strings, as they are already displayed with `` Left one suggestion there.
 
-Also noticed that on step 6, there’s a code block: `, score = ${score}` - should that one have quotes? I'm starting to wonder if the quotes are going to help or just make it more confusing.  
+Also noticed that on step 6, there’s a code block: `, score = ${score}` - should that one have quotes? I'm starting to wonder if the quotes are going to help or just make it more confusing.
 
 Similar on step 9. @Supravisor Thank you for the PR.
 
@@ -36376,7 +36376,7 @@ They are just element ""names"", and campers would understand what the instructi
 ---
 The same suggestion was mentioned in https://github.com/freeCodeCamp/freeCodeCamp/pull/55676#issuecomment-2268326985.","In my opinion, I do not think so to add quotes around the strings, as they are already displayed with `` Left one suggestion there.
 
-Also noticed that on step 6, there’s a code block: `, score = ${score}` - should that one have quotes? I'm starting to wonder if the quotes are going to help or just make it more confusing.  
+Also noticed that on step 6, there’s a code block: `, score = ${score}` - should that one have quotes? I'm starting to wonder if the quotes are going to help or just make it more confusing.
 
 Similar on step 9. @Supravisor Thank you for the PR.
 
