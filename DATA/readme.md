@@ -2,9 +2,9 @@
 
 
 In this directory you will find the raw data files for each repository directly as they were gotten from mining.
-You will also find the preprocessed data files categorised by group e.g group one is <span style="color: yellow;">***`PR_Lifetime_group1.csv`*** </span>
 
-This table summarizes the features...
+You will also find the preprocessed data files categorised by group e.g group one is ***`PR_Lifetime_group1.csv`*** 
+
 
 Below is the table of all the columns and their definitions
 
