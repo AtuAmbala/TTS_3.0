@@ -1,5 +1,11 @@
 ## 📊 Feature Definitions for Pull Request Analysis
 
+
+In this directory you will find the raw data files for each repository directly as they were gotten from mining.
+You will also find the preprocessed data files categorised by group e.g group one is *`PR_Lifetime_group1.csv`*
+
+This table summarizes the features...
+
 Below is the table of all the columns and their definitions
 
 | Original Column Name | Reference | Definition / Meaning | Category |
